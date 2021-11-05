@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%)) no-repeat;
+  font-family: 'Kumbh Sans', sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  margin: 80px 0 0;
+  width: 340px;
+  /* height: 75%; */
+  background: url('images/bg-pattern-mobile.svg') no-repeat top center white;
+  background-size: auto;
+  border-radius: 30px;
+}
+
+#main-image {
+  width: 240px;
+  position: relative;
+  top: -30px;
+  left: 15px;
+}
+
+.container {
+  width: 80%;
+  margin: 0px auto;
+  position: relative;
+  top: -70px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+hr {
+  border: 1px solid hsl(240, 5%, 91%);
+  margin: 10px auto;
+}
+dt {
+  cursor: pointer;
+}
+
+dt img.active {
+  transform: rotate(180deg);
+}
+dd {
+  display: none;
+  margin-top: 10px;
+}
+
+dd.active {
+  display: block;
+}
+
+/* @media screen and (min-width: 765px) and (max-width: 1200px) {
+  html {
+    font-size: 18px;
+  }
+  main {
+    max-width: 450px;
+  }
+} */
